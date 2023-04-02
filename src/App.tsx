@@ -1,25 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
+import OSM from './component/OSM';
+import ModalEnter from './component/ModalEnter';
 
-function App() {
+const App = () => {
+
+  const [initialPosition, setInitialPosition] = useState<[number, number]>([48.866667,2.333333]);
+  const [modalShow, setModalShow] = React.useState(true);
+
   return (
+    <>        
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <OSM  localisation= {initialPosition}/>
     </div>
+    </>
   );
 }
 
