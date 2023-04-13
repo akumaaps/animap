@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/pascontent/static/css/main.9cfa7aac.css",
+    "main.js": "/pascontent/static/js/main.5a2f8f76.js",
+    "static/js/787.f9bd5819.chunk.js": "/pascontent/static/js/787.f9bd5819.chunk.js",
+    "static/media/dog.png": "/pascontent/static/media/dog.5be3ac983a839b8a78d0.png",
+    "static/media/bear.png": "/pascontent/static/media/bear.37f0285f6743e98c8760.png",
+    "static/media/capybara.png": "/pascontent/static/media/capybara.349fdc3061f75946ef66.png",
+    "static/media/dino.png": "/pascontent/static/media/dino.aad29763dc6fc9d10ea3.png",
+    "static/media/cat.png": "/pascontent/static/media/cat.cfc0da9c82584e42119a.png",
+    "index.html": "/pascontent/index.html",
+    "main.9cfa7aac.css.map": "/pascontent/static/css/main.9cfa7aac.css.map",
+    "main.5a2f8f76.js.map": "/pascontent/static/js/main.5a2f8f76.js.map",
+    "787.f9bd5819.chunk.js.map": "/pascontent/static/js/787.f9bd5819.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cfa7aac.css",
+    "static/js/main.5a2f8f76.js"
+  ]
+}
