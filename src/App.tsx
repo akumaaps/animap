@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
 import OSM from './component/OSM';
-import ModalEnter from './component/ModalEnter';
 
 const App = () => {
 
