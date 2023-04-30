@@ -7,7 +7,7 @@ import dino from '../resources/dino.png';
 import bear from '../resources/bear.png';
 import capybara from '../resources/capybara.png';
 import { CustomPopup } from './CustomPopup';
-import { Animal } from './OSM';
+import { Animal } from './model/Animal';
 
 export const Markers = () => {
     const [selectedPosition, setSelectedPosition] = useState<[number, number]>([0, 0]);
