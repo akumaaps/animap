@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.9cfa7aac.css",
-    "main.js": "/static/js/main.cd1c6ced.js",
-    "static/js/787.f9bd5819.chunk.js": "/static/js/787.f9bd5819.chunk.js",
-    "static/media/tornade.png": "/static/media/tornade.6519ed7de2563dbd4985.png",
-    "static/media/dog.png": "/static/media/dog.5be3ac983a839b8a78d0.png",
-    "static/media/bear.png": "/static/media/bear.37f0285f6743e98c8760.png",
-    "static/media/capybara.png": "/static/media/capybara.349fdc3061f75946ef66.png",
-    "static/media/dino.png": "/static/media/dino.aad29763dc6fc9d10ea3.png",
-    "static/media/cat.png": "/static/media/cat.cfc0da9c82584e42119a.png",
-    "index.html": "/index.html",
-    "main.9cfa7aac.css.map": "/static/css/main.9cfa7aac.css.map",
-    "main.cd1c6ced.js.map": "/static/js/main.cd1c6ced.js.map",
-    "787.f9bd5819.chunk.js.map": "/static/js/787.f9bd5819.chunk.js.map"
+    "main.css": "/animap/static/css/main.9cfa7aac.css",
+    "main.js": "/animap/static/js/main.bc78a690.js",
+    "static/js/787.f9bd5819.chunk.js": "/animap/static/js/787.f9bd5819.chunk.js",
+    "static/media/tornade.png": "/animap/static/media/tornade.6519ed7de2563dbd4985.png",
+    "static/media/dog.png": "/animap/static/media/dog.5be3ac983a839b8a78d0.png",
+    "static/media/bear.png": "/animap/static/media/bear.37f0285f6743e98c8760.png",
+    "static/media/capybara.png": "/animap/static/media/capybara.349fdc3061f75946ef66.png",
+    "static/media/dino.png": "/animap/static/media/dino.aad29763dc6fc9d10ea3.png",
+    "static/media/cat.png": "/animap/static/media/cat.cfc0da9c82584e42119a.png",
+    "index.html": "/animap/index.html",
+    "main.9cfa7aac.css.map": "/animap/static/css/main.9cfa7aac.css.map",
+    "main.bc78a690.js.map": "/animap/static/js/main.bc78a690.js.map",
+    "787.f9bd5819.chunk.js.map": "/animap/static/js/787.f9bd5819.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9cfa7aac.css",
-    "static/js/main.cd1c6ced.js"
+    "static/js/main.bc78a690.js"
   ]
 }
