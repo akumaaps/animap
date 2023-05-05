@@ -28,8 +28,8 @@ export const AnimalMarker = ({position, animalKey}:MarkersProps) => {
     var animalIcon = L.icon({
         iconUrl: animal.icon,
         iconSize: [30, 30],
-        iconAnchor: [10, 15],
-        popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
+        iconAnchor: [5, 5],
+        popupAnchor: [3, -10] // point from which the popup should open relative to the iconAnchor
     });
     
     useEffect(() => {
