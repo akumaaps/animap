@@ -3,7 +3,6 @@ import React from 'react';
 
 import { MapContainer, TileLayer } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css';
-import { ButtonGroup, Tooltip } from "@mui/material";
 import LocateButton from "./Map"
 import Markers from "./Markers"
 import Control from 'react-leaflet-custom-control'

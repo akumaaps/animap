@@ -1,13 +1,12 @@
 
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 
-import { useMap, useMapEvents } from 'react-leaflet'
+import { useMap } from 'react-leaflet'
 
 import 'leaflet/dist/leaflet.css';
 
 import { LocationSearchingOutlined as LocateIcon } from '@mui/icons-material'
-import { ButtonGroup, Button, Tooltip } from "@mui/material";
-
+import {Button } from "@mui/material";
 
 const LocateButton = () => {
     var map = useMap();
