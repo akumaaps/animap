@@ -1,9 +1,14 @@
 
+import React from 'react';
 
-import React from 'react'
 import { MapContainer, TileLayer } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css';
-import { Markers } from './Markers';
+import { ButtonGroup, Tooltip } from "@mui/material";
+import LocateButton from "./Map"
+import Markers from "./Markers"
+import Control from 'react-leaflet-custom-control'
+
+
 
 type GeoProps = {
     localisation: [number, number];
@@ -13,10 +18,9 @@ type GeoProps = {
 const OSM: React.FC<GeoProps> = ({ localisation }) => {
     // Define your component props
     const state = {
-        lat: 49.035617,
-        lng: 3.060325,
-        zoom: 13,
+        zoom: 13
     }
+
 
     return (
         <MapContainer
@@ -29,6 +33,9 @@ const OSM: React.FC<GeoProps> = ({ localisation }) => {
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
             <Markers/>
+            <Control prepend position='bottomright'> 
+                    <LocateButton />
+            </Control>
         </MapContainer>
     )
 }
